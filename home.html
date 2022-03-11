@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link href="./home.css" rel="stylesheet">
+    <title>Health Track</title>
+
+    <script src="https://kit.fontawesome.com/f202e375e6.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="phone-content">
+        <ul class="lista">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./home.html">
+                  <i class="fa-solid fa-house fa-2x"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./treino.html">
+                  <i class="fa-solid fa-dumbbell fa-2x"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./refeicao.html">
+                  <i class="fa-solid fa-utensils fa-2x"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./corpo.html">
+                    <i class="fa-solid fa-child fa-2x"></i>
+                </a>
+              </li>
+            </ul>
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid bar">
+          <a class="navbar-brand" href="#">Health Track</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+              <form class="d-flex me-auto form-busca">
+                <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                <button class="btn btn-busca" type="submit">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+              </form>
+          </div>
+          <div class="collapse navbar-collapse " id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./home.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./treino.html">Treinos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./refeicao.html">Refeições</a>
+              </li>
+              <li class="nav-item dropdown text-align-right">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Jonas
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#">Perfil</a></li>
+                        <li><a class="dropdown-item" href="corpo.html">Meu corpo</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Configurações</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+            <img src="./images/avatar.jpg" alt="selfie homem" class="avatar">
+    </nav>
+    <div class="container-fluid main">
+        <div class="row d-flex justify-content-center">
+                <div class="col-6 d-flex align-items-end treino">
+                    <a href="./treino.html" class="link-banner">
+                        Treinos
+                    </a>
+                </div>
+        </div>
+        <div class="row d-flex justify-content-center">
+            <div class="col-6 d-flex align-items-end refeicao">
+                <a href="./refeicao.html" class="link-banner">
+                    Refeições
+                </a>
+            </div>
+        </div>
+        <div class="row d-flex justify-content-center">
+            <div class="col-6 d-flex align-items-end corpo">
+                <a href="./corpo.html" class="link-banner">
+                    Meu corpo
+                </a>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
