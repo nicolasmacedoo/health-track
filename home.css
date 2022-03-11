@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #e5e5e5;
+}
+
+.avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    margin: 0px 10px;
+}
+
+.link-banner {
+    color: #fff;
+    text-decoration: none;
+}
+
+.link-banner:hover {
+    color: #fd605b;
+}
+
+.treino {
+    background: url(./images/treino.jpg);
+    background-size: cover;
+    height: 25vh;
+    color: #fff;
+    font-size: 32px;
+    margin-top: 50px;
+    border-radius: 11px;
+}
+
+.refeicao {
+    background: url(./images/refeicao2.jpg);
+    background-size: cover;
+    height: 25vh;
+    color: #fff;
+    font-size: 32px;
+    margin-top: 50px;
+    border-radius: 11px;
+}
+
+.corpo {
+    background: url(./images/balanca.jpg);
+    background-size: cover;
+    height: 25vh;
+    color: #fff;
+    font-size: 32px;
+    margin: 50px;
+    border-radius: 11px;
+}
+
+.btn-busca {
+    color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: #fd605b;
+}
+
+.btn-busca:hover {
+    background-color: #fd605b;
+}
+
+.btn-busca:active {
+    transform: scale(0.98);
+}
+
+.phone-content {
+    display: none;
+}
+
+@media only screen and (max-width: 420px) {
+    .treino {
+        width: 80vw;
+        height: 15vh;
+        margin: 0;
+    }
+
+    .refeicao {
+        width: 80vw;
+        height: 15vh;
+    }
+
+    .corpo {
+        width: 80vw;
+        height: 15vh;
+    }
+
+    .navbar-brand {
+        display: none;
+    }
+
+    .form-control {
+        display: none;
+    }
+
+    .btn-busca {
+        display: none;
+    }
+
+
+    .avatar {
+        width: 70px;
+        height: 70px;
+        margin-left: 15px;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    .phone-content {
+        display: flex;
+        justify-content: center;
+        margin: 10px 0px;
+    }
+    
+    .lista {
+        margin-top: 20px;
+    }
+
+    .nav-item {
+        display: inline-block;
+    }
+
+    i {
+        color: #000;
+    }
+}
