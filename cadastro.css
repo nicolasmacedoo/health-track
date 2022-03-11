@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+
+body {
+    background: url(./images/dumbells2.jpg);
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+}
+
+.main-content {
+    background-color: #e5e5e5;
+    padding: 1rem;
+}
+
+.btn-login {
+    width: 30%;
+    padding: 1rem 2rem;
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    outline: none;
+    cursor: pointer;
+    background-color: #fd605b;
+    text-align: center;
+}
+
+.btn-login:hover {
+    background-color: #fd605b;
+}
+
+.btn-login:active {
+    transform: scale(0.98);
+}
+
+@media only screen and (max-width: 420px) {
+    body {
+        background-image: url(./images/dumbell-p.jpg);
+      }
+
+    .main-content {
+        width: 80vw;
+        background-color: transparent;
+    }
+}
