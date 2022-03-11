@@ -150,3 +150,13 @@ span {
 color: #fd605b;
 font-weight: bold;
 }
+
+@media only screen and (max-width: 420px) {
+    body {
+      background-image: url(./images/dumbell-p.jpg);
+    }
+  
+    .main-content {
+      background-color: transparent;
+    }
+  }
